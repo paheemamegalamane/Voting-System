@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Voting System</h1>
+        <p>Select your favorite option:</p>
+        <div class="options"><hr>
+            <img src="img/Naruto.png" alt=""><br>
+            <button onclick="vote('Option 1')">Naruto</button><hr>
+            <img src="img/Itachi.png" alt=""><br>
+            <button onclick="vote('Option 2')">Itachi</button><hr>
+            <img src="img/Dedara.png" alt=""><br>
+            <button onclick="vote('Option 3')">Dedara</button><hr>
+        </div>
+        <div class="results">
+            <h2>Results:</h2>
+            <p>Naruto: <span id="votes-option1">0</span> votes</p>
+            <p>Itachi: <span id="votes-option2">0</span> votes</p>
+            <p>Dedara: <span id="votes-option3">0</span> votes</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
